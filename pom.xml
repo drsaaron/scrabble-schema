@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blazartech</groupId>
     <artifactId>DateServices</artifactId>
-    <version>1.31-RELEASE</version>
+    <version>1.32-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +21,7 @@
       <dependency>
 	<groupId>org.flywaydb</groupId>
 	<artifactId>flyway-mysql</artifactId>
-	<version>10.7.2</version>
+	<version>10.10.0</version>
       </dependency>
 	  
     </dependencies>
@@ -31,7 +31,7 @@
             <plugin>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
-                <version>10.7.2</version>
+                <version>10.10.0</version>
             </plugin>
         </plugins>
     </build>
